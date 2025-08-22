@@ -87,8 +87,13 @@ button:hover{
     margin-bottom: 10px;
     transition: .3s ease;
 }
-
-
+h1{
+    transition: .3s ease;
+}
+h1:hover{
+    transform: scale(1.1);
+    text-shadow: 0px 0px 5px black;
+}
 .hover-text {
   position: relative;
   cursor: pointer;
