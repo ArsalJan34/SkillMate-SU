@@ -25,6 +25,8 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border-bottom: 0.1px solid blue;
+    padding: 10px ;
 }
 nav{
     display: flex;
