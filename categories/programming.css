@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0f1724;
+  color: #f1f5f9;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background: #1e293b;
+}
+
+header .logo {
+  font-size: 22px;
+  font-weight: bold;
+  color: #38bdf8;
+  text-decoration: none;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #cbd5e1;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #38bdf8;
+}
+
+.programming-hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(120deg, #1e293b, #0f1724);
+}
+
+.programming-hero h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.programming-hero p {
+  color: #94a3b8;
+}
+
+.programming-list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px 20px;
+}
+
+.course {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  width: 250px;
+  transition: transform 0.3s ease;
+}
+
+.course:hover {
+  transform: translateY(-5px);
+}
+
+.course i {
+  font-size: 40px;
+  color: #38bdf8;
+  margin-bottom: 10px;
+}
+
+.course h2 {
+  margin-bottom: 8px;
+  font-size: 20px;
+}
+
+.course p {
+  color: #94a3b8;
+  font-size: 14px;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background: #1e293b;
+  margin-top: 40px;
+}
